@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useRef, useState, useMemo } from "react";
 import { motion } from "motion/react";
 
