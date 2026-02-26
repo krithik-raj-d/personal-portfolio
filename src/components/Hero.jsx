@@ -6,14 +6,14 @@ const Hero = () => {
     console.log("Animation completed!");
   };
   return (
-    <div className="h-screen w-full bg-[url(/8777566.jpg)] bg-no-repeat bg-cover flex flex-col items-center justify-center px-20">
+    <div className="h-[90vh] md:h-screen w-full bg-[url(/8777566.jpg)] bg-no-repeat bg-cover flex flex-col md:items-center justify-center px-5 md:px-20">
       <BlurText
         text="Crafting immersive web experiences with precision and performance."
         delay={200}
         animateBy="words"
         direction="top"
         onAnimationComplete={handleAnimationComplete}
-        className="text-5xl mb-8 text-white font-semibold max-w-3xl leading-15 justify-center text-center"
+        className="text-3xl md:text-5xl mb-8 text-white font-semibold max-w-3xl leading-10 md:leading-15 md:justify-center md:text-center"
       />
       <button
         className="rounded-full text-sm font-medium
