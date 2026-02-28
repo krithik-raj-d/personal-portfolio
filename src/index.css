@@ -356,3 +356,44 @@
     filter: invert(100%);
   }
 }
+
+.card-swap-container {
+  position: absolute;
+  top: 10;
+  right: 0;
+  width: 500px;
+  height: 400px;
+  /* transform: translate(10%, 10%); */
+  transform-origin: bottom left;
+  perspective: 900px;
+}
+
+.card {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  transform-style: preserve-3d;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  .card-swap-container {
+    transform: scale(0.75) translate(75%, 25%);
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    top: 40%;
+    left: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-swap-container {
+    transform: scale(0.55) translate(85%, 25%);
+  }
+}

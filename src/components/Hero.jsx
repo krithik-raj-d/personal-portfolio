@@ -6,7 +6,7 @@ const Hero = () => {
     console.log("Animation completed!");
   };
   return (
-    <div className="h-[90vh] md:h-screen w-full bg-[url(/8777566.jpg)] bg-no-repeat bg-cover flex flex-col md:items-center justify-center px-5 md:px-20">
+    <div className="h-[90vh] md:h-screen w-full bg-[url(/hero-bg.jpg)] bg-no-repeat bg-cover flex flex-col md:items-center justify-center px-5 md:px-20">
       <BlurText
         text="Crafting immersive web experiences with precision and performance."
         delay={200}
