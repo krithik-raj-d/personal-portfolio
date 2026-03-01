@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 import Services from "./components/Services";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <NavBar className={"md:block hidden absolute"} />
       <Hero />
       <Services />
-      <Hero />
+      <Projects />
     </div>
   );
 }

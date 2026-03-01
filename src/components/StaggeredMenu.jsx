@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 
 export const StaggeredMenu = ({
   position = "right",
-  colors = ["#B19EEF", "#5227FF"],
+  colors = ["#e5622a", "#e64805"],
   items = [],
   socialItems = [],
   displaySocials = true,

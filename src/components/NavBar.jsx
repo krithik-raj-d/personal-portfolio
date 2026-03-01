@@ -79,7 +79,7 @@ const NavBar = ({ className }) => {
           menuButtonColor="#ffffff"
           openMenuButtonColor="#fff"
           changeMenuColorOnOpen={true}
-          colors={["#B19EEF", "#5227FF"]}
+          colors={["#e5622a", "#e64805"]}
           // logoUrl="/path-to-your-logo.svg"
           accentColor="#5227FF"
           //   onMenuOpen={() => console.log("Menu opened")}

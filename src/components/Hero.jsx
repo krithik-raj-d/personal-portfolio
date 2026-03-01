@@ -6,17 +6,18 @@ const Hero = () => {
     console.log("Animation completed!");
   };
   return (
-    <div className="h-[90vh] md:h-screen w-full bg-[url(/hero-bg.jpg)] bg-no-repeat bg-cover flex flex-col md:items-center justify-center px-5 md:px-20">
+    <div className="h-[90vh] md:h-screen w-full bg-[url(/secondary-hero-bg.png)] bg-no-repeat bg-cover flex flex-col md:items-center justify-center px-5 md:px-20 bg-white relative">
+      {/* <div className="absolute inset-0 bg-black/10 z-0" /> */}
       <BlurText
-        text="Crafting immersive web experiences with precision and performance."
+        text="Crafting immersive web experiences with precision and performance"
         delay={200}
         animateBy="words"
         direction="top"
         onAnimationComplete={handleAnimationComplete}
-        className="text-3xl md:text-5xl mb-8 text-white font-semibold max-w-3xl leading-10 md:leading-15 md:justify-center md:text-center"
+        className="text-3xl md:text-5xl mb-8 text-white font-bold max-w-3xl leading-10 md:leading-15 md:justify-center md:text-center uppercase"
       />
       <button
-        className="rounded-full text-sm font-medium
+        className="rounded-full text-sm font-semibold
              bg-white/10
              backdrop-blur-xs
              border border-white/30
